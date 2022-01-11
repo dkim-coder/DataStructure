@@ -1,3 +1,5 @@
+# 양방향 연결 리스트
+
 class Node:
     def __init__(self, key = None):
         self.key = key
