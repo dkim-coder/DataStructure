@@ -16,6 +16,16 @@ class BinaryNode:
     def __str__(self):
         return str(self.key)
 
+    # def __iter__(self):
+    #     if self:
+    #         yield self.key
+    #         if self.left:
+    #             self.left.__iter__()
+    #         if self.right:
+    #             self.right.__iter__()
+
+
+
     # 재귀 호출
     # 현재 노드 = self
     def preorder(self):
